@@ -1,0 +1,18 @@
+Package: Mass.Standard.Viewer
+Type: Package
+Title: Mass Spec Standard Viewer
+Version: 0.1.0
+Author: Conor C Jenkins
+Maintainer: The package maintainer <conor.jenkins@outlook.com>
+Description: This code will be used for displaying and visualizing the shift in retention time standards according to their mass or retention time. The Retention time shift (x axis) whill show you at what minute, the peptide psm is eluting at. and delta M (y axis) shows the shift in mass that occured that the algorithm had to correct. The size of the point (X corr) is used to show how confident of an identification did the serach engine determine the ID.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:ggplot2,
+    ggrepel,
+    readr,
+    dplyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
